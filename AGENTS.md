@@ -1,6 +1,6 @@
 # agent-plugin-adapters
 
-A coding-agent plugin written once, against a harness-agnostic API, with an adapter per harness: Claude Code, Gemini CLI and OpenCode.
+A coding-agent plugin written once, against a harness-agnostic API, with an adapter per harness: Claude Code, Antigravity CLI and OpenCode.
 Each adapter degrades a feature by what its harness can do, such as a pane drawn as plain text where a harness has no panes, rather than cutting the plugin down to the features every harness shares.
 See `README.md`.
 
